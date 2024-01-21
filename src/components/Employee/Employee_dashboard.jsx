@@ -34,7 +34,7 @@ const EmployeeDashboard = () => {
     const fetchDashboardData = async () => {
       try {
         // Fetch employee dashboard data
-        const responseDashboard = await axios.get(`http://localhost:5172/employee/${empid}/dashboard`, {
+        const responseDashboard = await axios.get(`https://leave-management-5tyz.onrender.com/employee/${empid}/dashboard`, {
           headers: {
             Authorization: `Bearer ${authToken}`,
             'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const EmployeeDashboard = () => {
         setDashboardData(dataDashboard);
 
         // Fetch leave requests made by the employee
-        const responseLeaveRequests = await axios.get(`http://localhost:5172/employee/${empid}/leaverequests`, {
+        const responseLeaveRequests = await axios.get(`https://leave-management-5tyz.onrender.com/employee/${empid}/leaverequests`, {
           headers: {
             Authorization: `Bearer ${authToken}`,
             'Content-Type': 'application/json',

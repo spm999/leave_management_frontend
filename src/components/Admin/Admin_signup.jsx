@@ -18,7 +18,7 @@ const Admin_signup = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5172/admin/signup', {
+      const response = await fetch('https://leave-management-5tyz.onrender.com/admin/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -24,7 +24,7 @@ const EmployeeSignup = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5172/employee/signup', formData);
+      const response = await axios.post('https://leave-management-5tyz.onrender.com/employee/signup', formData);
       // console.log(response.data);
 
       setSuccessMessage('Signup successful! Redirecting to login...');

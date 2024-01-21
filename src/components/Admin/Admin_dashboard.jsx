@@ -35,7 +35,7 @@ const AdminDashboard = () => {
     const fetchDashboardData = async () => {
       try {
 
-        const response = await axios.get(`http://localhost:5172/admin/${admid}/dashboard`, {
+        const response = await axios.get(`https://leave-management-5tyz.onrender.com/admin/${admid}/dashboard`, {
           headers: {
             'Authorization': `Bearer ${authToken}`,
             'Content-Type': 'application/json',

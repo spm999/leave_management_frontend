@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import './Admin.css'; // Adjust the filename as needed
 
-const AdminApprove = () => {
+const Admin_approve = () => {
   const { admid, leaveRequestId } = useParams();
   const [approvalStatus, setApprovalStatus] = useState('');
   const [loading, setLoading] = useState(true);
@@ -53,7 +53,7 @@ const AdminApprove = () => {
     try {
       const authToken = localStorage.getItem('authToken');
       const response = await axios.put(
-        `https://leave-management-frontend-three.vercel.app/admin/${admid}/approveLeave/${leaveRequestId}`,
+        `https://leave-management-5tyz.onrender.com/admin/${admid}/approveLeave/${leaveRequestId}`,
         { approvalStatus: newStatus },
         {
           headers: {
@@ -93,4 +93,4 @@ const AdminApprove = () => {
   );
 };
 
-export default AdminApprove;
+export default Admin_approve;

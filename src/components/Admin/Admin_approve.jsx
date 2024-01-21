@@ -22,7 +22,7 @@ const AdminApprove = () => {
     const fetchLeaveRequest = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5172/admin/${admid}/dashboard`,
+          `https://leave-management-5tyz.onrender.com/admin/${admid}/dashboard`,
           {
             headers: {
               'Authorization': `Bearer ${authToken}`,

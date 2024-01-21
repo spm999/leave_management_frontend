@@ -53,7 +53,7 @@ const AdminApprove = () => {
     try {
       const authToken = localStorage.getItem('authToken');
       const response = await axios.put(
-        `http://localhost:5172/admin/${admid}/approveLeave/${leaveRequestId}`,
+        `https://leave-management-frontend-three.vercel.app/admin/${admid}/approveLeave/${leaveRequestId}`,
         { approvalStatus: newStatus },
         {
           headers: {

@@ -20,7 +20,7 @@ const EmployeeLeave = () => {
 
       // Send leave request to the server
       await axios.post(
-        `http://localhost:5172/employee/${empid}/leaveRequest`,
+        `https://leave-management-5tyz.onrender.com/employee/${empid}/leaveRequest`,
         { leaveType, startDate, endDate, reason },
         {
           headers: {

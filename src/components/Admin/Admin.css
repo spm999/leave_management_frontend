@@ -1,0 +1,170 @@
+/* Admin.css */
+
+.admin-login-container {
+    box-sizing: border-box;
+    width: 300px; /* Set your desired width */
+    margin: 100px auto; /* Center the form on the page */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+/* Add these styles to your existing CSS file */
+
+.admin-dashboard-container {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .dashboard-message {
+    color: #333;
+  }
+  
+  .leave-requests-header {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .leave-requests-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .leave-request {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 15px;
+    width: calc(30% - 20px); /* Adjust the width as needed */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .leave-request p {
+    margin: 5px 0;
+  }
+  
+  .logout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+
+
+
+
+  /* Admin.css */
+
+.admin-approve-container {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .approve-title {
+    color: #333;
+  }
+  
+  .request-id,
+  .status {
+    margin: 10px 0;
+  }
+  
+  .approval-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .approve-button,
+  .reject-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  .approve-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reject-button:hover {
+    background-color: #dc3545;
+  }
+  
+  .loading,
+  .error {
+    color: #dc3545;
+  }
+  

@@ -1,0 +1,263 @@
+/* EmployeeSignup.css */
+
+.employee-signup-container {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Bluish background color */
+    border: 1px solid #b3daff; /* Light bluish border */
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .signup-title {
+    color: #004080; /* Dark bluish text color */
+  }
+  
+  .signup-form {
+    margin-top: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px; /* Reduced margin-bottom */
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 8px; /* Reduced margin-bottom */
+  }
+  
+  .signup-button {
+    background-color: #007bff; /* Bluish button color */
+    color: #fff;
+    border: none;
+    padding: 10px 16px; /* Adjusted padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Adjusted font size */
+    margin-bottom: 30px; /* Darker bluish color on hover */
+
+  }
+  
+  .signup-button:hover {
+
+    background-color: #0056b3;
+  }
+  
+  .tologin{
+
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+  /* EmployeeLogin.css */
+
+.employee-login-container {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: #333;
+  }
+  
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+  }
+  
+  .signup-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+  /* EmployeeDashboard.css */
+
+.employee-dashboard-container {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .dashboard-message {
+    color: #333;
+  }
+  
+  .leave-requests-header {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .leave-requests-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .leave-request-column {
+    box-sizing: border-box;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .leave-request-column p {
+    margin: 5px 0;
+  }
+  
+  .make-leave-request-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .make-leave-request-link:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+
+
+
+/* Employee.css */
+
+.employee-leave-container {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .leave-title {
+    color: #333;
+  }
+  
+  .leave-form {
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  

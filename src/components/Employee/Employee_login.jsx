@@ -20,7 +20,7 @@ const EmployeeLogin = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(`http://localhost:/employee/login`, formData);
+      const response = await axios.post(`https://leave-management-5tyz.onrender.com/employee/login`, formData);
 
       // Handle successful login, e.g., store authentication token and redirect
       const { authtoken, EmployeeId } = response.data;

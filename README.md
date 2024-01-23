@@ -4,6 +4,7 @@ Admin Login Credential:
 Email: admin@gmail.com
 Password: 123456
 
+Backend Repo->https://github.com/spm999/leave_management_backend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
